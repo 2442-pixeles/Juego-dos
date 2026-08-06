@@ -71,7 +71,7 @@ terminar, se guarda el resultado en un ranking Top 5 persistente.
 
 ## Diagrama de clases
 
-![Diagrama UML](diagrama_uml_dos.png)
+![Diagrama UML](UML.png)
 
 ## Cómo correrlo
 
