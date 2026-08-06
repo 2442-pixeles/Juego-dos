@@ -75,13 +75,22 @@ terminar, se guarda el resultado en un ranking Top 5 persistente.
 
 ## Cómo correrlo
 
-```
-# Servidor (una sola vez)
-java ar.edu.unlu.poo.juegodos.red.ServidorJuego
+Primero hay que compilar una vez desde el IDE (Build > Build Project en
+IntelliJ, o el equivalente en el tuyo) para que se genere la carpeta `out/`
+con las clases compiladas.
 
-# Un cliente por jugador (2 a 4)
-java ar.edu.unlu.poo.juegodos.red.ClienteJuego
-```
+Con eso ya hecho, no hace falta abrir el IDE de nuevo para jugar — en la
+raíz del repo hay scripts para arrancar todo con doble clic:
+
+| Script | Para qué |
+|---|---|
+| `iniciar_servidor.bat` / `.sh` | Levanta el servidor (una sola vez por partida) |
+| `iniciar_cliente.bat` / `.sh` | Un cliente por jugador — correrlo 2 a 4 veces |
+
+Doble clic en `iniciar_servidor` primero, y después en `iniciar_cliente`
+tantas veces como jugadores. Cada cliente pide la IP del servidor (Enter
+para localhost), el nombre del jugador, y si quiere interfaz de consola o
+gráfica.
 
 Cada cliente pide la IP del servidor, el nombre del jugador, y si quiere
 interfaz de consola o gráfica.
