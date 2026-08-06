@@ -91,6 +91,3 @@ Doble clic en `iniciar_servidor` primero, y después en `iniciar_cliente`
 tantas veces como jugadores. Cada cliente pide la IP del servidor (Enter
 para localhost), el nombre del jugador, y si quiere interfaz de consola o
 gráfica.
-
-Cada cliente pide la IP del servidor, el nombre del jugador, y si quiere
-interfaz de consola o gráfica.
